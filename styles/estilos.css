@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+:root {
+    --cor-primaria: #4650BD;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #008364;
+}
+
+body {
+    /* height: 100%;
+    background-image: radial-gradient(#4650BD, #008364);
+    background-size: cover ; */
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/home/carol-jung/Documentos/codechella-2023/assets/fundo.svg");
+
+}
+
+/* CABECALHO */
+.cabecalho__container {
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--cor-secundaria);
+    font-family: 'Raleway', sans-serif;
+}
+
+.cabecalho__menu__item {
+
+}
